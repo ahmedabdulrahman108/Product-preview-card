@@ -147,6 +147,7 @@ body {
 
 .end a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 .end a:hover {
