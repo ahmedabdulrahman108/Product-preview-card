@@ -1,0 +1,170 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background: #0D192B;
+    padding: 150px;
+}
+
+.main {
+    background-color: #0D192B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #14253D;
+    width: 327px;
+    height: 543px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 20px 25px 15px rgba(0, 0, 0, 0.05),
+        0px 40px 30px 15px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+    margin-bottom: 24px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 278px;
+    height: 278px;
+}
+
+.img-rad {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    background-color: #00fff780;
+    border-radius: 8px;
+}
+
+.img:hover {
+    cursor: pointer;
+}
+
+.img:hover .img-overlay {
+    opacity: 1;
+}
+
+
+.card .head {
+    padding: 23px auto;
+    margin-bottom: 15px;
+}
+
+.card .head h3 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card .head h3:hover {
+    color: #00FFF7;
+    cursor: pointer;
+}
+
+.card .head p {
+    color: #6A85AF;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.card .center {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.center .one {
+    color: #00FFF7;
+}
+
+.center .two {
+    color: #8BACDA;
+}
+
+.center span {
+    margin-right: 7.58px;
+}
+
+.center .one,
+.center .two {
+    display: flex;
+    height: 20px;
+}
+
+.line {
+    margin-bottom: 16px;
+    width: 100%;
+    height: 1px;
+    background-color: #2F415B;
+}
+
+.end {
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.end img {
+    width: 33px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.end p {
+    margin-left: 16px;
+    color: #8BACDA;
+}
+
+.end a {
+    color: #ffffff;
+}
+
+.end a:hover {
+    color: #00FFF7;
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 25px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.attribution a {
+    color: #00FFF7;
+    text-decoration: none;
+}
